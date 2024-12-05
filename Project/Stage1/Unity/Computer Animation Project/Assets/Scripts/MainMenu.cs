@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
@@ -47,14 +48,15 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    public void NewGame()
-    {
-        
-    }
-
     public void Quit()
     {
         Debug.Log("Quitting");
         Application.Quit();
     }
+
+    public void Confirm()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }
