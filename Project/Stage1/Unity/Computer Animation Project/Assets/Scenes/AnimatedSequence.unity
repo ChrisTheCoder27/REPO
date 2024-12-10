@@ -229,7 +229,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1754119957}
   m_SourcePrefab: {fileID: 100100000, guid: 90f913b183ecce64ca322695fb6bd06f, type: 3}
---- !u!1 &1011570939
+--- !u!1 &643692049
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,8 +237,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1011570941}
-  - component: {fileID: 1011570940}
+  - component: {fileID: 643692051}
+  - component: {fileID: 643692050}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -246,25 +246,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!108 &1011570940
+--- !u!108 &643692050
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011570939}
+  m_GameObject: {fileID: 643692049}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -308,21 +308,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!4 &1011570941
+--- !u!4 &643692051
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011570939}
+  m_GameObject: {fileID: 643692049}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.41578472, y: 0.16232775, z: -0.07569467, w: 0.8916519}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.848389, y: -0.123735905, z: 0.22732511, w: 0.46178874}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: 20.636, z: 0}
+  m_LocalEulerAnglesHint: {x: 122.88, y: -30, z: 0}
 --- !u!1 &1060607481
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +560,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1166004861}
-  - {fileID: 1011570941}
+  - {fileID: 643692051}
   - {fileID: 587887000}
   - {fileID: 1060607483}
