@@ -19,11 +19,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] Toggle invertYAxisToggle;
     [SerializeField] TextMeshProUGUI invertXAxisState;
 
-    void Awake()
-    {
-        
-    }
-
     void Update()
     {
         volumeValue.text = $"{volumeSlider.value}";
